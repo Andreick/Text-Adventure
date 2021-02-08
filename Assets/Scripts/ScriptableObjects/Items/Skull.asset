@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a1a05d927aa6c4ebfcb687c0f9a883, type: 3}
+  m_Name: Skull
+  m_EditorClassIdentifier: 
+  noum: skull
+  description: A wheater human skull lies in the corner.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: b70587b7d8b62114ca1443e9a664cce9, type: 2}
+    textResponse: The skull is blackened and charred. Gross.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 3037a59b495ede64c93c578b6af93e90, type: 2}
+    textResponse: You take the skull.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 4ab30814bcbd574468ff7e6c7709491d, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: a6314a0fe28bc01479a5b52a62a64de3, type: 2}
